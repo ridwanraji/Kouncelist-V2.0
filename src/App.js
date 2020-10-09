@@ -1,10 +1,18 @@
-import React from 'react';
+import React from "react";
+import "./styles/App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PageBoders from "./components/PageBorders";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello World</h1>
-    </div>
+    <>
+      <Router>
+        <PageBoders />
+        <Switch>
+          <Route path="/" exact />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
