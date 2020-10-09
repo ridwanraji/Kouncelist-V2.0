@@ -1,0 +1,10 @@
+.navbar {
+    height: 80px;
+    margin: 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
