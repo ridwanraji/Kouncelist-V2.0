@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "../styles/components/Footer.css";
 
 function Footer() {
@@ -14,11 +13,25 @@ function Footer() {
 
           <ul className="foot-socials">
             <li className="foot-social-icon">
-              <a className="fab fa-instagram-square" href="https://instagram.com"> </a>
+              <a
+                className="fab fa-instagram-square"
+                href="https://instagram.com/mr.rilly"
+                // eslint-disable-next-line
+                target="_blank"
+              >
+                {" "}
+              </a>
             </li>
             <li className="horizontal-line"></li>
             <li className="foot-social-icon">
-              <a className="fab fa-twitter-square" href="https://twitter.com"> </a>
+              <a
+                className="fab fa-twitter-square"
+                href="https://twitter.com/rillyvisuals"
+                // eslint-disable-next-line
+                target="_blank"
+              >
+                {" "}
+              </a>
             </li>
           </ul>
         </div>
