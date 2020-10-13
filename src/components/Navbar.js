@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/Navbar.css";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo.svg";
 
 function Navbar() {
   return (
