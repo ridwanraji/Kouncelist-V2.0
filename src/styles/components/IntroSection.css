@@ -1,0 +1,10 @@
+.intro-container{
+    margin-left: 50px;
+}
+.intro-text-container {
+    white-space: pre-wrap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+}
