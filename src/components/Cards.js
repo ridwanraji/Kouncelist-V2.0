@@ -12,14 +12,14 @@ function Cards() {
           <CardItem
             src={Random}
             text="generate kouncel"
-            smallText="randomly changes every 60 seconds"
+            smallText="kouncel randomly changes every minute"
             path="/random"
           />
 
           <CardItem
             src={Searching}
-            text="generate kouncel"
-            smallText="randomly changes every 60 seconds"
+            text="search  kouncel"
+            smallText="generate kounsel from search keywords"
             path="/random"
           />
         </ul>
