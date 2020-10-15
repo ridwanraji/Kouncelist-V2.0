@@ -11,7 +11,9 @@ function Navbar() {
           <Link to="/" className="navbar-logo">
             <img src={logo} alt="logo" width="100px"></img>
           </Link>
-          <i className="fas fa-search"></i>
+          <Link to="/search">
+            <i className="fas fa-search"></i>
+          </Link>
         </div>
       </nav>
     </>
