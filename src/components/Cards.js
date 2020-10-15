@@ -18,9 +18,9 @@ function Cards() {
 
           <CardItem
             src={Searching}
-            text="search  kouncel"
+            text="search kouncel"
             smallText="generate kounsel from search keywords"
-            path="/random"
+            path="/search"
           />
         </ul>
       </div>
