@@ -1,10 +1,19 @@
-.intro-container{
+.intro-container {
     margin-left: 50px;
 }
+
 .intro-text-container {
     white-space: pre-wrap;
+    font-weight: 300;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.intro-body-logo-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
