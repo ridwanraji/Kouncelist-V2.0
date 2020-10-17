@@ -5,14 +5,14 @@ import PageBoders from "./components/PageBorders";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
         <PageBoders />
         <Switch>
           <Route path="/" exact />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
